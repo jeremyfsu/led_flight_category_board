@@ -1,6 +1,6 @@
 # LED Flight Category Display Board
 A chart board that hangs on the wall and displays flight category (VFR/IFR) using RGB LEDs
-
+![LED board image](https://raw.githubusercontent.com/jeremyfsu/led_flight_category_board/master/photos/IMG_4538_small.jpg)
 Here's my implentation of an idea several other people have already had. Most of the other ones out there use a Raspberry Pi.
 I decided to use a $8 NodeMCU board instead. 
 
