@@ -7,7 +7,7 @@ Here's my implentation of an idea several other people have already had. Most of
 I decided to use a $8 NodeMCU board instead. 
 
 ## How it works
-A cron job runs the nodejs every 15 minutes. This nodejs bit fetches the weather data from the NOAA weather API.
+A cron job runs the nodejs every 10 minutes. This nodejs bit fetches the weather data from the NOAA weather API.
 It converts the XML weather data to JSON, and then assigns RGB values to each flight category (IFR(red), VFR(green), LIFR(PURPLE), 
 MVFR(blue). It also converts the station IDs to a number representing which LED on the light board/map corresponds to that airport.
 The LED board uses a WS2812 strip of RGB LEDs, and the NodeMCU board can address each LED by number, 1 being the first LED on the strip,
