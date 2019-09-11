@@ -19,3 +19,5 @@ All of this could have easily been done in Lua or in C on the NodeMCU board.  Th
 solution. However, I thought it would be nice to only have to change the the nodejs if I want to change
 what data is displayed on the board. Lets say I want to change the colors to represent wind, or visibility. I can change the 
 nodejs and not have to plug the LED Board up to a USB port on a computer to re-flash the NodeMCU chip with a new Lua script.
+
+I used [NodeMCU build](https://nodemcu-build.com) to compile the NodeMCU firmware and included the following modules: file, gpio, mqtt, net, node, sjson, tmr, uart, wifi, ws2812.
